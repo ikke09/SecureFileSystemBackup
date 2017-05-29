@@ -96,11 +96,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FileSystemBackupLib\FileSystemBackupLib.csproj">
-      <Project>{7d280a35-4363-4592-b498-c4a226ae0d8f}</Project>
-      <Name>FileSystemBackupLib</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
